@@ -1,0 +1,23 @@
+{
+    "eslint.workingDirectories": [
+      "packages/client",
+      "packages/graphics",
+      "packages/esbuild-utils",
+    ],
+    "[rust]": {
+      "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "rust-analyzer.cargo.features": "all",
+    "rust-analyzer.cargo.target": "wasm32-unknown-unknown",
+    "rust-analyzer.linkedProjects": [
+      "packages/graphics/Cargo.toml",
+      "packages/graphics/src/main/Cargo.toml",
+      "packages/graphics/src/presentation_layer/Cargo.toml",
+      "packages/graphics/src/application_layer/Cargo.toml",
+      "packages/graphics/src/data_access_layer/Cargo.toml",
+      "packages/graphics/src/memory_layer/Cargo.toml",
+      "packages/graphics/src/infrastructure_layer/Cargo.toml",
+      "packages/graphics/src/errors/Cargo.toml"
+    ]
+}
+  

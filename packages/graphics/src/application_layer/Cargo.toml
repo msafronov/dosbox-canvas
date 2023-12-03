@@ -1,0 +1,21 @@
+[package]
+name = "application_layer"
+version = "0.0.0"
+edition = "2021"
+authors = ["Matvey Safronov"]
+
+[lib]
+name = "application_layer"
+path = "src/lib.rs"
+test = true
+doctest = false
+
+[dependencies]
+data_access_layer = {path = "../data_access_layer"}
+errors = {path = "../errors"}
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.0"
+
+[features]
+unit_test = []

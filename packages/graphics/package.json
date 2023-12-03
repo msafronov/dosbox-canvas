@@ -1,0 +1,24 @@
+{
+  "name": "graphics",
+  "private": true,
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "echo \"dev\" not implemented yet",
+    "build": "npm run clean && npm run build-wasm && npm run build-lib",
+    "build-wasm": "./scripts/cargo_build.sh",
+    "build-lib": "node ./esbuild/esbuild.config.dev.js",
+    "test": "npm run test-wasm && npm run test-lib",
+    "test-wasm": "./scripts/cargo_test.sh",
+    "test-lib": "echo \"test-lib\" not implemented yet",
+    "lint": "echo \"lint\" not implemented yet",
+    "clean": "rm -rf ./dist/*"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.15.14",
+    "esbuild-utils": "*"
+  }
+}

@@ -1,0 +1,9 @@
+[build]
+target = "wasm32-unknown-unknown"
+rustflags = [
+  "-C", "target-feature=+atomics,+bulk-memory",
+  "-C", "link-args=--no-entry -zstack-size=65536 --max-memory=5242880",
+]
+
+[target.wasm32-unknown-unknown]
+runner = "wasm-bindgen-test-runner"

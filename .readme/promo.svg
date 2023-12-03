@@ -1,0 +1,26 @@
+<svg width="75" height="50" xmlns="http://www.w3.org/2000/svg">
+<foreignObject width="500" height="100">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-size: 4px; font-weight: bold;">
+        <span style="color: #000;">0 1 1 0 1 0 0 0 0</span> <span style="color: #0a00af;">1 1 0
+        1 1 1 1 0 1 1</span> <span style="color: #09a6a8;">0 1 1 0 0</span><br />
+        <span style="color: #000;">0 1 1 0 0 0 0 1</span> <span style="color: #0a00af;">0 0 1 0
+        0 0 0 1 0</span> <span style="color: #09a6a8;">0 1 0 0 0 0 0</span><br />
+        <span style="color: #000;">0 1 1 0 0</span> <span style="color: #0a00af;">1 0 1 0 1 1 1
+        0 1 1</span> <span style="color: #09a6a8;">0 0 1 1 0 0 1 0</span> <span style="color: #006101;">1</span><br />
+        <span style="color: #000;">0 1 1 1</span> <span style="color: #0a00af;">0 0 1 0 0 1 1 1</span>
+        <span style="color: #09a6a8;">1 0 0 1 0 1 1 1 0</span> <span style="color: #006101;">1 0 0</span><br />
+        <span style="color: #000;">0 1</span> <span style="color: #0a00af;">1 0 1 0 0 0 0 1</span> <span style="color: #09a6a8;">1 0
+        1 0 0 1 0 1</span> <span style="color: #006101;">1 0 1 1 1 0</span><br />
+        <span style="color: #000;">0</span> <span style="color: #0a00af;">1 1 0 0 1 1 1 0</span> <span style="color: #09a6a8;">0 1 0
+        0 0 0 0</span> <span style="color: #006101;">0 1 1 1 0 1 1</span> <span style="color: #808080;">1</span><br />
+        <span style="color: #0a00af;">0 1 1 0 1 0 0</span> <span style="color: #09a6a8;">1 0 1 1 0
+        1 1 0</span> <span style="color: #006101;">0 0 1 1 0 1 1</span> <span style="color: #808080;">0 0</span><br />
+        <span style="color: #0a00af;">0 0 1 0 0 0</span> <span style="color: #09a6a8;">0 0 0 1 1 0
+        0 0</span> <span style="color: #006101;">1 0 0 1 1 0</span> <span style="color: #808080;">0 1 0 1</span><br />
+        <span style="color: #0a00af;">0 0 1 0 0</span> <span style="color: #09a6a8;">0 0 0 0 1 1 0</span>
+        <span style="color: #006101;">0 1 1 0 0 1 1</span> <span style="color: #808080;">0 1 0 0 1</span><br />
+        <span style="color: #0a00af;">0 1 1 0</span> <span style="color: #09a6a8;">1 1 1 0 0 1</span> <span style="color: #006101;">1 0
+        0 1 0 1 0</span> <span style="color: #808080;">0 1 0 0 0 0 1</span>
+    </div>
+</foreignObject>
+</svg>

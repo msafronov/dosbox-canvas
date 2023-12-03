@@ -1,0 +1,1 @@
+pub type MemoryPtr = *mut u8;

@@ -1,0 +1,2 @@
+pub const ALLOCATOR_MEMORY_INITIAL_POSITION: usize = 65536;
+pub const WASM_BLOCK_SIZE: usize = 65536;

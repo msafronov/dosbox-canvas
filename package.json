@@ -1,0 +1,19 @@
+{
+  "name": "dosbox-canvas",
+  "version": "0.0.0-prealpha",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/graphics",
+    "packages/client"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "keywords": [],
+  "author": "Matvey Safronov",
+  "license": ""
+}
